@@ -1,0 +1,359 @@
+.title1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+.title2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    font-style: bold;
+}
+.body1 {
+    margin-right: 775px;
+}
+.p1 {
+    text-align: justify;
+}
+.float1 {
+    float: left;
+    width: 170px;
+}
+/*ex 2*/
+.title3 {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.positions {
+    position: relative;
+    width: 105%;
+    height: 145px; 
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.coolgray {
+    position: absolute;
+    color: darkslategray;
+}
+.warmGray {
+    position: absolute;
+    left: 115px;
+    color:darkgrey;
+}
+.amber {
+    position: absolute;
+    left: 280px;
+    color: rgb(206, 132, 12);
+}
+.green {
+    position: absolute;
+    left: 425px;
+    color: green;
+
+}
+.cyan {
+    position: absolute;
+    top: 25px;
+    color: rgb(46, 122, 122);
+}
+.red {
+    position: absolute;
+    top: 25px;
+    left: 115px;
+    color: rgb(217, 29, 29);
+}
+.yellow {
+    position: absolute;
+    top: 25px;
+    left: 280px;
+    color: rgb(248, 193, 42);
+}
+.emerald {
+    position: absolute;
+    top: 25px;
+    left: 425px;
+    color: rgb(43, 116, 93);
+}
+.sky {
+    position: absolute;
+    top: 50px;
+    color: rgb(51, 153, 194);
+}
+.orange {
+    position: absolute;
+    top: 50px;
+    left: 115px;
+    color: rgb(216, 117, 46);
+}
+.lime {
+    position: absolute;
+    top: 50px;
+    left: 280px;
+    color: rgb(122, 166, 57);
+}
+.teal {
+    position: absolute;
+    top: 50px;
+    left: 425px;
+    color: teal;
+}
+.fuchsia {
+    position: absolute;
+    top: 75px;
+    color: rgb(179, 55, 179);
+}
+.pink {
+    position: absolute;
+    top: 75px;
+    left: 115px;
+    color: rgb(203, 88, 107);
+}
+.rose {
+    position: absolute;
+    top: 75px;
+    left: 280px;
+    color: rgb(233, 110, 110);
+}
+.blueGray {
+    position: absolute;
+    top: 75px;
+    left: 425px;
+    color: rgb(77, 79, 107);
+}
+.purple {
+    position: absolute;
+    top: 100px;
+    color: purple;
+}
+.violet {
+    position: absolute;
+    top: 100px;
+    left: 115px;
+    color: rgb(112, 65, 112);
+}
+.indigo {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    color: indigo;
+}
+.blue {
+    position: absolute;
+    top: 100px;
+    left: 425px;
+    color: rgb(54, 54, 194);
+}
+/*ex 3*/
+.title4 {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+}
+.positions2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    width: 105%;
+    height: 145px; 
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.positions2 p {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.blueGray2 {
+    background-color: rgb(33, 36, 80);
+    grid-column: span 4;
+}
+.coolGray2 {
+    background-color: rgb(72, 88, 95);
+}
+.warmGray2 {
+    background-color: gray;
+}
+.amber2 {
+    background-color:  rgb(206, 132, 12);
+}
+.green2 {
+    background-color: green;
+}
+.gray2 {
+    background-color: rgb(52, 50, 50);
+}
+.red2 {
+    background-color: rgb(217, 29, 29);
+}
+.yellow2 {
+    background-color: rgb(248, 193, 42);
+}
+.emerald2 {
+    background-color: rgb(43, 116, 93);
+}
+.trueGray2 {
+    background-color: rgb(93, 88, 88);
+}
+.orange2 {
+    background-color: rgb(216, 117, 46);
+}
+.lime2 {
+    background-color: rgb(122, 166, 57);
+}
+.teal2 {
+    background-color: teal;
+}
+.fuchsia2 {
+    background-color: rgb(179, 55, 179);
+}
+.pink2 {
+    background-color: rgb(203, 88, 107);
+}
+.rose2 {
+    background-color:  rgb(233, 110, 110);
+    grid-column: span 2;
+}
+.purple2 {
+    background-color: purple;
+}
+.violet2 {
+    background-color: rgb(112, 65, 112);
+}
+.indigo2 {
+    background-color: indigo;
+}
+.blue2 {
+    background-color: rgb(54, 54, 194);
+}
+.sky2 {
+    background-color: rgb(51, 153, 194);
+    grid-column: span 2;
+}
+.cyan2 {
+    background-color: rgb(46, 122, 122);
+    grid-column: span 2;
+}
+/*ex 4*/
+.colorPalette {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 15px;
+    width: 475px;
+    height: 475px;
+    background-color: black;
+    margin-top: 150px;
+    padding: 15px;
+}
+.c1r1 {
+    background-color: rgb(118, 117, 192);
+}
+.c1r2 {
+    background-color: rgb(155, 121, 210);
+}
+.c1r3 {
+    background-color: rgb(202, 154, 234);
+}
+.c1r4 {
+    background-color: rgb(237, 134, 239);
+}
+.c1r5 {
+    background-color: rgb(219, 120, 174);
+}
+.c1r6 {
+    background-color: rgb(242, 116, 116);
+}
+.c2r1 {
+    background-color: rgb(81, 79, 190);
+}
+.c2r2 {
+    background-color: rgb(121, 89, 173);
+}
+.c2r3 {
+    background-color: rgb(178, 106, 226);
+}
+.c2r4 {
+    background-color: rgb(188, 87, 189);
+}
+.c2r5 {
+    background-color: rgb(195, 92, 149);
+}
+.c2r6 {
+    background-color: rgb(223, 85, 85);
+}
+.c3r1 {
+    background-color: rgb(65, 63, 184);
+}
+.c3r2 {
+    background-color: rgb(101, 71, 149);
+}
+.c3r3 {
+    background-color: rgb(136, 75, 177);
+}
+.c3r4 {
+    background-color: rgb(163, 64, 164);
+}
+.c3r5 {
+    background-color: rgb(188, 71, 135);
+}
+.c3r6 {
+    background-color: rgb(205, 65, 65);
+}
+.c4r1 {
+    background-color: rgb(53, 51, 150);
+}
+.c4r2 {
+    background-color: rgb(94, 59, 150);
+}
+.c4r3 {
+    background-color: rgb(109, 57, 143);
+}
+.c4r4 {
+    background-color: rgb(124, 42, 126);
+}
+.c4r5 {
+    background-color: rgb(170, 54, 118);
+}
+.c4r6 {
+    background-color: rgb(178, 58, 58);
+}
+.c5r1 {
+    background-color: rgb(44, 43, 113);
+}
+.c5r2 {
+    background-color: rgb(76, 47, 124);
+}
+.c5r3 {
+    background-color: rgb(88, 43, 118);
+}
+.c5r4 {
+    background-color: rgb(104, 29, 106);
+}
+.c5r5 {
+    background-color: rgb(141, 34, 92);
+}
+.c5r6 {
+    background-color: rgb(155, 45, 54);
+}
+.c6r1 {
+    background-color: rgb(34, 33, 75);
+}
+.c6r2 {
+    background-color: rgb(56, 34, 92);
+}
+.c6r3 {
+    background-color: rgb(62, 30, 83);
+}
+.c6r4 {
+    background-color: rgb(81, 18, 84);
+}
+.c6r5 {
+    background-color: rgb(95, 19, 61);
+}
+.c6r6 {
+    background-color: rgb(101, 22, 46);
+}
